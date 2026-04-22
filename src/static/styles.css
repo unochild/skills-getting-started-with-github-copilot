@@ -74,6 +74,80 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.participants-section {
+  margin-top: 14px;
+  padding: 12px;
+  background: linear-gradient(135deg, #f3f7ff 0%, #eef3ff 100%);
+  border: 1px solid #d9e3ff;
+  border-radius: 8px;
+}
+
+.participants-section h5 {
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #243b8a;
+}
+
+.participants-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #1f2d57;
+}
+
+.participant-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 6px 8px;
+  margin-bottom: 6px;
+  background-color: rgba(255, 255, 255, 0.75);
+  border: 1px solid #dce5ff;
+  border-radius: 6px;
+}
+
+.participant-email {
+  overflow-wrap: anywhere;
+}
+
+.participant-remove {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1px solid #f0b4b9;
+  background-color: #fff4f5;
+  color: #b4232c;
+  padding: 0;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.participant-remove svg {
+  width: 15px;
+  height: 15px;
+  fill: currentColor;
+}
+
+.participant-remove:hover {
+  background-color: #ffe9eb;
+  transform: translateY(-1px);
+}
+
+.participant-remove:focus-visible {
+  outline: 2px solid #f05964;
+  outline-offset: 1px;
+}
+
+.participants-empty {
+  font-style: italic;
+  color: #56648c;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
